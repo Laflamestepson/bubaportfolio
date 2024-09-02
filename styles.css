@@ -1,0 +1,189 @@
+.hero {
+  background-image: url('/images/ponon3.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.section-subtitle {
+  font-size: 1.25rem;
+  color: #666;
+}
+.portfolio-card img, .blog-card img {
+  height: 200px;
+  object-fit: cover;
+}
+.fixed-top {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: background-color 0.3s;
+}
+.fixed-top.scrolled {
+  background-color: #000;
+}
+
+
+
+/* blog post 1 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: url('images/blog-header.jpg') no-repeat center center/cover;
+}
+
+header .lead {
+    font-size: 1.25rem;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+/* Sidebar Styles */
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-body .badge {
+    margin-right: 5px;
+    font-size: 0.875rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    header {
+        padding: 40px 20px;
+    }
+    
+    header .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    header .lead {
+        font-size: 1.125rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    pre {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-header h5 {
+        font-size: 1.125rem;
+    }
+
+    .card-body .badge {
+        font-size: 0.75rem;
+    }
+}
+
+
+
+/* blog post 2 */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: url('images/bootstrap-header.jpg') no-repeat center center/cover;
+}
+
+header .lead {
+    font-size: 1.25rem;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+/* Sidebar Styles */
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-body .badge {
+    margin-right: 5px;
+    font-size: 0.875rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    header {
+        padding: 40px 20px;
+    }
+    
+    header .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    header .lead {
+        font-size: 1.125rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    pre {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-header h5 {
+        font-size: 1.125rem;
+    }
+
+    .card-body .badge {
+        font-size: 0.75rem;
+    }
+}
+

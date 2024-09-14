@@ -1,5 +1,5 @@
 .hero {
-  background-image: url('/images/ponon3.JPG');
+  background-image: url('./images/ponon3.JPG');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -33,7 +33,7 @@ body {
 }
 
 header {
-    background: url('images/blog-header.jpg') no-repeat center center/cover;
+    background: url('./images/blog-header.jpg') no-repeat center center/cover;
 }
 
 header .lead {
@@ -115,7 +115,7 @@ body {
 }
 
 header {
-    background: url('images/bootstrap-header.jpg') no-repeat center center/cover;
+    background: url('./images/bootstrap-header.jpg') no-repeat center center/cover;
 }
 
 header .lead {
